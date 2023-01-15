@@ -1,0 +1,664 @@
+*{
+   max-width: 1600px;
+   margin: 0px auto;
+}
+
+.wrapper {
+   position: relative;
+   width: 1600px;
+   height: 835px;
+   background: white;
+   margin: 20px;
+   border-radius: 10px
+}
+
+.header {
+  
+   width: 1600px;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   font-size: x-large;
+
+
+}
+
+.main {
+   width: 100px;
+   height: 50px;
+   margin: 20px;
+   padding: 10px;
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: left;
+
+}
+
+.team {
+   width: 100px;
+   height: 50px;
+   margin: 20px;
+   padding: 10px;
+
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: left;
+
+}
+
+.lesson {
+   width: 100px;
+   height: 50px;
+   margin: 20px;
+   padding: 10px;
+
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: left;
+
+
+}
+
+.conteiner {
+   position: absolute;
+   width: 1490px;
+   height: 720px;
+   left: 65px;
+   top: 110px;
+   background: #EAEBED;
+   border-radius: 41px;
+
+
+}
+
+.menu {
+   position: absolute;
+   width: 1000px;
+   height: 40px;
+   left: 280px;
+   top: 100px;
+
+}
+
+.lesson-1 {
+   position: absolute;
+   width: 138px;
+   height: 40px;
+   left: 50px;
+   top: 0px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+   text-align: center;
+
+   color: #323232;
+
+}
+
+.topic {
+   position: absolute;
+   width: 138px;
+   height: 40px;
+   left: 290px;
+   top: 0px;
+
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+   text-align: center;
+
+   color: #323232;
+
+}
+
+.date {
+   position: absolute;
+   width: 138px;
+   height: 40px;
+   right: 290px;
+   top: 0px;
+
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+   text-align: center;
+
+   color: #323232;
+
+}
+
+.dowload {
+   position: absolute;
+   width: 138px;
+   height: 40px;
+   right: 0px;
+   top: 0px;
+
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+   text-align: center;
+
+   color: #323232;
+
+}
+
+.block {
+   position: absolute;
+   width: 900px;
+   height: 370px;
+   left: 330px;
+   top: 220px;
+   
+}
+
+
+.block-1 {
+   position: absolute;
+   width: 1150px;
+   height: 60px;
+   left: -90px;
+   top: 0px;
+ 
+  
+}
+
+.block-1:hover{
+   border-radius: 10px;
+   background-color: white;
+}
+
+
+.nuvber-1 {
+   position: absolute;
+   height: 40px;
+   width: 138px;
+   left: 80px;
+   top: 15px;
+   border-radius: nullpx;
+
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: center;
+  
+
+
+}
+
+.html-1 {
+   position: absolute;
+   height: 40px;
+   width: 138px;
+   left: 325px;
+   top: 15px;
+   border-radius: nullpx;
+
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: center;
+
+
+}
+
+.date-1 {
+   position: absolute;
+   height: 40px;
+   width: 138px;
+   left: 610px;
+   top: 15px;
+  
+
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: center;
+
+
+}
+
+.button {
+   position: absolute;
+   height: 45px;
+   width: 45px;
+   right: 158px;
+   top: 7px;
+   border-radius: 7px;
+   background-size: 100%;
+   cursor: pointer;
+   
+   
+}
+
+
+
+.button:hover {
+   background:url(./image5.2/Rectangle\ 9.png);
+   
+   border-radius: 5px;
+   background-size: 100%;
+
+  
+ 
+}
+
+.svg-icon{
+   position: relative;
+   left: 6px;
+   top: 6px;
+   cursor: pointer;
+  
+}
+
+.svg-icon:hover path {
+   
+   stroke: rgb(160, 163, 161);  
+}
+ 
+.block-2 {
+   position: absolute;
+   width: 1150px;
+   height: 60px;
+   left: -90px;
+   top: 75px;
+  
+
+}
+
+.block-2:hover{
+   background-color: white;
+   border-radius: 10px;
+}
+
+.nuvber-2 {
+   position: absolute;
+   height: 40px;
+   width: 138px;
+   left: 80px;
+   top: 15px;
+  
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: center;
+
+}
+
+.html-2 {
+   position: absolute;
+   height: 40px;
+   width: 138px;
+   left: 325px;
+   top: 15px;
+   border-radius: nullpx;
+
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: center;
+}
+
+.date-2 {
+   position: absolute;
+   height: 40px;
+   width: 138px;
+   left: 610px;
+   top: 15px;
+
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: center;
+
+}
+
+.button-2 {
+   position: absolute;
+   height: 45px;
+   width: 45px;
+   right: 160px;
+   top: 7px;
+   border-radius: 0px;
+   
+}
+
+.button-2:hover {
+
+   background:url(./image5.2/Rectangle\ 9.png);
+   border-radius: 5px;
+   background-size: 100%;
+   
+}
+
+
+.svg-icon2{ 
+   left: px;
+   top: px;
+   cursor: pointer; 
+  
+}
+
+.svg-icon2:hover path {
+ 
+   stroke: rgb(160, 163, 161);
+   
+}
+
+.block-3 {
+   position: absolute;
+   width: 1150px;
+   height: 60px;
+   left: -90px;
+   top: 155px;
+  
+
+}
+
+.block-3:hover{
+   background-color: white;
+   border-radius: 10px;
+}
+
+.nuvber-3 {
+   position: absolute;
+   height: 40px;
+   width: 138px;
+   left: 80px;
+   top: 15px;
+
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: center;
+
+}
+
+.html-3 {
+   position: absolute;
+   height: 40px;
+   width: 138px;
+   left: 320px;
+   top: 15px;
+
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: center;
+}
+
+.date-3 {
+   position: absolute;
+   height: 40px;
+   width: 138px;
+   left: 610px;
+   top: 15px;
+
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: center;
+
+}
+
+.button-3 {
+   position: absolute;
+   height: 45px;
+   width: 45px;
+   right: 160px;
+   top: 7px;
+   border-radius: 0px;  
+   
+}
+
+.button-3:hover {
+
+   background:url(./image5.2/Rectangle\ 9.png);
+   border-radius: 5px;
+   background-size: 100%; 
+
+}
+
+.svg-icon{
+   
+   left: 6px;
+   top: 11px;  
+  
+}
+
+.svg-icon:hover path {
+   
+   stroke: rgb(160, 163, 161);  
+}
+
+.block-4 {
+   position: absolute;
+   width: 1150px;
+   height: 60px;
+   left: -90px;
+   bottom: 75px;
+   border:  15x;
+   
+
+
+}
+
+.block-4:hover{
+   background-color: white;
+   border-radius: 10px;
+}
+
+
+.nuvber-4 {
+   position: absolute;
+   height: 40px;
+   width: 138px;
+   left: 80px;
+   top: 15px;
+
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: center;
+
+}
+
+.html-4 {
+   position: absolute;
+   height: 40px;
+   width: 138px;
+   left: 320px;
+   top: 15px;
+
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: center;
+}
+
+.date-4 {
+   position: absolute;
+   height: 40px;
+   width: 138px;
+   left: 610px;
+   top: 15px;
+
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: center;
+
+}
+
+.button-4 {
+   position: absolute;
+   height: 45px;
+   width: 45px;
+   right: 160px;
+   top: 7px;
+   border-radius: 0px;
+   
+}
+
+.button-4:hover {
+   
+   background:url(./image5.2/Rectangle\ 9.png);
+   border-radius: 5px;
+   background-size: 100%;
+
+}
+
+.svg-icon{
+   left: 12px;
+   top: 11px;
+  
+}
+
+.svg-icon:hover path {
+  
+   stroke: rgb(160, 163, 161);   
+}
+
+.block-5 {
+   position: absolute;
+   width: 1150px;
+   height: 60px;
+   left: -90px;
+   bottom: 0px;
+ 
+  
+}
+
+.block-5:hover{
+   background-color: white;
+   border-radius: 10px;
+}
+
+.nuvber-5 {
+   position: absolute;
+   height: 40px;
+   width: 138px;
+   left: 80px;
+   top: 15px;
+
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: center;
+
+}
+
+.html-5 {
+   position: absolute;
+   height: 40px;
+   width: 138px;
+   left: 320px;
+   top: 15px;
+
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: center;
+}
+
+.date-5 {
+   position: absolute;
+   height: 40px;
+   width: 138px;
+   left: 610px;
+   top: 15px;
+
+
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: center;
+
+}
+
+.button-5 {
+   position: absolute;
+   height: 45px;
+   width: 45px;
+   right: 160px;
+   top: 7px;
+   border-radius: 0px;
+   z-index: 0;
+}
+
+.button-5:hover {
+  
+   background:url(./image5.2/Rectangle\ 9.png);
+   border-radius: 5px;
+   background-size: 100%;
+   z-index: 1;
+}
+
+.svg-icon{
+   
+   left: 12px;
+   top: 11px; 
+  z-index: 2;
+}
+
+.svg-icon:hover path {
+  
+     stroke: rgb(143, 144, 143);
+  z-index: 3;
+}
+
+
+.img{
+   position: absolute;
+   left: 8px;
+   top: 10px;
+
+}
